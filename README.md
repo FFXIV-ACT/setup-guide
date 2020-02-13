@@ -4,7 +4,7 @@ This guide is intended to get a FFXIV player setup with ACT and an overlay for p
 
 *Last updated: 2/11/2020*
 
-<img align="right" src="act_logo.png" alt="act_logo" height="100" vspace="25">
+<img align="right" src="resources/act_logo.png" alt="act_logo" height="100" vspace="25">
 
 ## Contents
 - [Installing ACT](#installing-act)
@@ -17,6 +17,8 @@ This guide is intended to get a FFXIV player setup with ACT and an overlay for p
   - [Custom Overlays](#custom-overlays)
 - [Adding an Overlay](#adding-an-overlay)
 - [FFLogs Uploader](#fflogs-uploader)
+  - [Installing the Uploader](#installing-the-uploader)
+  - [Uploading a Log](#uploading-a-log)
 
 ## Installing ACT
 
@@ -130,3 +132,48 @@ In the overlay settings, make sure to add the overlay **URL** source. It can be 
 
 ## FFLogs Uploader
 
+### Installing the Uploader
+
+Navigate to the [FFLogs Download](https://www.fflogs.com/client/download/) page and download the FFLogs client application for your platform. 
+
+![fflogs_download](resources/fflogs_download.png)
+
+Find the `FFLogsUploader` install application in your downloads and run it. The application will ask you whether to install for all users or just yourself. Click on the **Install** button after selecting your choice then **Finish** once the installation is done.
+
+![fflogs_installation](resources/install_uploader.png)
+
+### Uploading a Log
+
+*Note: You will need to [register](https://www.fflogs.com/register/) for an FFLogs account in order to upload logs.*
+
+Run the FFlogs Uploader application. Enter the account information you used to sign up. Once you are authenticated, click on the **Upload a Log** button.
+
+![upload_log](resources/upload_log.png)
+
+Click on **Choose** to select the log to upload.
+
+![choose_log](resources/choose_log.png)
+
+In the File Explorer, navigate to the folder where the log is saved. The default location is at `%APPDATA%\Advanced Combat Tracker\FFXIVLogs`. You can copy and paste that path in the explorer bar to go directly to the default folder.
+
+![log_folder](resources/log_folder.png)
+
+In the log folder, selected the desired log to upload, and click on **Open**. To ensure the latest log is on top, you can sort by **Date modified**.
+
+![log_location](resources/select_log.png)
+
+Choose the desired access level for the log: **Public**, **Private**, or **Unlisted**. Public will be ranked and Private and Unlisted are un-ranked. Anyone will be able to view a Public log. Private logs can only be viewed by you. Unlisted logs can be viewed by anyone with the link to the log.
+
+If you want to upload only a specific encounter, toggle the **Select Specific Raids To Upload** option, then click on the **Go!** button.
+
+![log_options](resources/log_options.png)
+
+Select the specific encounter you want to upload from the list and click on the **Go!** button. You may select multiple encounters by holding *`Ctrl`* on your keyboard. 
+
+*Note: this view is only available if you selected specific raids to upload.*
+
+![select_fight](resources/select_fight.png)
+
+Once the uploader is finished uploading the encounters to the FFLogs website, click on **View Report** to open up the page in your default browser and view the log results.
+
+![view_report](resources/view_report.png)
