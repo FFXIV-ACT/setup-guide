@@ -102,6 +102,8 @@ In the **Get Plugins** window, select the `[FFXIV+others]Overlay Plugin` option 
 
 The OverlayPlugin should now be setup. Click on the `X` to close the **Get Plugins** window.
 
+**At this point it is recommended to restart ACT before continuing on.**
+
 ## Adding an Overlay
 
 ### Preset Overlays
