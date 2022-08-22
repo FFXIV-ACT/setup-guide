@@ -2,7 +2,7 @@
 
 This guide is intended to get a FFXIV player setup with ACT and an overlay for parsing purposes and be able to upload logs to the FFLogs website.
 
-*Last updated: 2/11/2020*
+*Last updated: 8/21/2022*
 
 <img align="right" src="resources/act_logo.png" alt="act_logo" height="100" vspace="25">
 
@@ -96,7 +96,7 @@ From the **Plugin Listing** tab, click on the `Get Plugins...` button near the u
 
 ![get_plugins](resources/get_plugins.png)
 
-In the **Get Plugins** window, select the `[FFXIV+others]Overlay Plugin` option and click on `Download and Enable`. This will add the latest ngld **OverlayPlugin** to ACT (the OverlayPlugin auto-updater may also run during this step).
+In the **Get Plugins** window, select the `Overlay Plugin` option and click on `Download and Enable`. This will add the latest ngld **OverlayPlugin** to ACT (the OverlayPlugin auto-updater may also run during this step).
 
 ![get_plugins_window](resources/get_plugins_window.png)
 
