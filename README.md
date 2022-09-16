@@ -96,7 +96,7 @@ From the **Plugin Listing** tab, click on the `Get Plugins...` button near the u
 
 ![get_plugins](resources/get_plugins.png)
 
-In the **Get Plugins** window, select the `Overlay Plugin` option and click on `Download and Enable`. This will add the latest ngld **OverlayPlugin** to ACT (the OverlayPlugin auto-updater may also run during this step).
+In the **Get Plugins** window, select the `Overlay Plugin` option and click on `Download and Enable`. This will add the latest **OverlayPlugin** to ACT (the OverlayPlugin auto-updater may also run during this step).
 
 ![get_plugins_window](resources/get_plugins_window.png)
 
@@ -108,7 +108,7 @@ The OverlayPlugin should now be setup. Click on the `X` to close the **Get Plugi
 
 ### Preset Overlays
 
-Ngld's OverlayPlugin comes with built-in presets for a majority of popular overlays. To setup an overlay go to **Plugins** > **OverlayPlugin.dll** and click on the `New` button. 
+OverlayPlugin comes with built-in presets for a majority of popular overlays. To setup an overlay go to **Plugins** > **OverlayPlugin.dll** and click on the `New` button. 
 
 ![new_overlay](resources/new_overlay.png)
 
